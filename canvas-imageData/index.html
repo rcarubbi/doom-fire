@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             table {
                 border-collapse: collapse;
@@ -34,11 +35,13 @@
 
             #fireCanvas {
                 image-rendering: pixelated;
+                width: 100vmin;
+                height: 80vmin;
             }
         </style>
     </head>
     <body>
-        <div id="fireCanvas" />
+        <canvas id="fireCanvas"></canvas>   
         <script src="fire.js"></script>
     </body>
 </html>
